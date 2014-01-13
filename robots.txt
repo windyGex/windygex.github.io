@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://qianduan.me/sitemap.xml 
+Sitemap: http://windyGex.github.io/sitemap.xml 

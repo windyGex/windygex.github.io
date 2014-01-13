@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Web 前端开发]]></title>
-  <link href="http://qianduan.me/atom.xml" rel="self"/>
-  <link href="http://qianduan.me/"/>
-  <updated>2014-01-13T20:36:01+08:00</updated>
-  <id>http://qianduan.me/</id>
+  <link href="http://windyGex.github.io/atom.xml" rel="self"/>
+  <link href="http://windyGex.github.io/"/>
+  <updated>2014-01-13T21:19:32+08:00</updated>
+  <id>http://windyGex.github.io/</id>
   <author>
     <name><![CDATA[蓝面小生]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[写在2014初]]></title>
-    <link href="http://qianduan.me/blog/xie-zai-2014chu/"/>
+    <link href="http://windyGex.github.io/blog/xie-zai-2014chu/"/>
     <updated>2014-01-13T20:13:31+08:00</updated>
-    <id>http://qianduan.me/blog/xie-zai-2014chu</id>
+    <id>http://windyGex.github.io/blog/xie-zai-2014chu</id>
     <content type="html"><![CDATA[<p>博客停滞了很久，一直在为空间的事情苦恼，嫌备案麻烦，于是折腾了很久，终于决定使用github托管好了。</p>
 
 <p>说说2014年的计划好了，2014年有很多要去做到极致的事情，尤其是在我2013年里专注的事情上面。</p>
