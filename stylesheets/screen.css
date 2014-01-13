@@ -1,0 +1,924 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+}
+
+html {
+    overflow-y: scroll;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+del {
+    color: #333;
+}
+
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin: 24px;
+    margin-bottom: 1.714285714rem;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+small {
+    font-size: smaller;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+a {
+    text-decoration: none;
+    color: #088253;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*st*/
+html {
+    font-size: 87.5%;
+}
+
+body {
+    font-size: 12px;
+    font-family: '微软雅黑', Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #333;
+    background: #edece9 url(/images/bg.gif) left top no-repeat;
+
+}
+
+body.custom-font-enabled {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.clear:after,
+.wrapper:after,
+.format-status .entry-header:after {
+    clear: both;
+}
+
+.clear:before,
+.clear:after,
+.wrapper:before,
+.wrapper:after,
+.format-status .entry-header:before,
+.format-status .entry-header:after {
+    display: table;
+    content: "";
+}
+
+/*header*/
+.site-header {
+    color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.23);
+    background: rgba(0, 0, 0, 0.8);
+    height: 40px;
+    line-height: 38px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.75);
+    font-size: 12px;
+}
+
+.site-header-inner, .site {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.site-header-inner {
+    height: 100%;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+.site-header hgroup, .main-navigation, .menu-toggle, .nav-menu, .nav-menu li,
+.site-user-avator {
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    zoom: 1;
+}
+
+.site-description, .menu-toggle, .assistive-text {
+    display: none;
+}
+
+.main-navigation {
+    margin-left: 60px;
+}
+
+.site-title {
+    font-size: 16px;
+    font-family: '微软雅黑';
+}
+
+.site-title a {
+    color: #fff;
+}
+
+.nav-menu li {
+    margin-right: 15px;
+    font-weight: bolder;
+
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 0 20px;
+}
+
+.nav-menu li.current_page_item a {
+    background: url(/images/bg.png) 0 -50px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5) inset;
+    color: #fff;
+}
+
+.site-bg {
+    background: url(/images/001.jpg) bottom center no-repeat;
+    height: 160px;
+    overflow: hidden;
+}
+
+.site {
+    padding: 15px;
+    background: url(/images/wash-white-30.png) repeat;
+}
+
+.site-user {
+    border: 1px solid #ddd;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+}
+
+.site-user-info {
+    position: relative;
+    padding: 0 30px 20px;
+    margin-top: -80px;
+}
+
+.site-user-avator {
+    border: 1px solid #c1c9de;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.site-user-avator img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.site-user-name .desc {
+    vertical-align: bottom;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.site-user-desc {
+    margin-top: 15px;
+}
+
+.site-content,
+.site-side section {
+    border: 1px solid #ddd;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px 0 #fff;
+    border-radius: 3px;
+    background: #fff;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.site-content article {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 20px;
+    -webkit-transition: background linear .3s;
+    -moz-transition: background linear .3s;
+    -ms-transition: background linear .3s;
+    -o-transition: background linear .3s;
+    transition: background linear .3s;
+}
+
+.site-content {
+    float: right;
+    width: 675px;
+}
+
+.site-side {
+    width: 270px;
+    float: left;
+}
+
+.footer {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.entry-content {
+    line-height: 1.8;
+}
+
+.entry-content h1 {
+    margin-bottom: 15px;
+}
+
+.entry-content h2 {
+    margin-bottom: 10px;
+}
+
+.entry-content ol {
+    list-style: decimal;
+    margin-bottom: 10px;
+}
+
+.entry-content li {
+    margin-left: 20px;
+}
+
+.entry-content ul {
+    list-style: circle;
+    margin-bottom: 10px;
+}
+
+.entry-content pre {
+    background: #fafafa;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+.entry-content code {
+    border: 1px solid #eee;
+    background: #fafafa;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin: 0 3px;
+}
+
+.entry-content pre code {
+    border: 0;
+}
+
+.entry-content p {
+    margin-bottom: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+#pagenavi {
+    margin: 10px 0;
+}
+
+.section-title {
+    margin: 15px 10px;
+    font-size: 14px;
+}
+
+.section-list {
+    margin: 0 10px;
+}
+
+.section-list li {
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.site-content .single-post {
+    border-bottom: 0;
+}
+
+.share {
+    margin-left: 20px;
+}
+
+.single-post .post-title {
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.archives {
+    padding: 20px;
+}
+
+.archives .year {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.archives-item {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: right;
+}
+
+.archives-item a {
+    float: left;
+}
+
+.post-comments {
+    margin: 10px 20px;
+}
+
+body #ds-recent-comments li.ds-comment {
+    border: 0;
+    font-size: 12px;
+    border-bottom: 1px dotted #eee;
+}
+
+#ds-recent-comments li.ds-comment a {
+    color: #333;
+}
+
+#ds-recent-comments li.ds-comment .ds-excerpt {
+    color: #666;
+}
+
+/* non highlighted code colors */
+.highlight, html .gist .gist-file .gist-syntax .gist-highlight {
+    border: 1px solid #eee !important;
+}
+
+.highlight table td.code, html .gist .gist-file .gist-syntax .gist-highlight table td.code {
+    width: 100%;
+    text-shadow:none;
+}
+
+.highlight .line-numbers, html .gist .gist-file .gist-syntax .gist-highlight .line-numbers {
+    text-align: right;
+    font-size: 13px;
+    line-height: 1.45em;
+    border-right: 1px solid #eee !important;
+    text-shadow: #fff 0 -1px;
+    padding: .8em !important;
+}
+
+.highlight .line-numbers span, html .gist .gist-file .gist-syntax .gist-highlight .line-numbers span {
+    color: #586e75 !important;
+}
+
+figure.code .highlight pre, .gist-file .highlight pre, pre .highlight pre {
+    box-shadow: none;
+}
+
+html .gist .gist-file {
+    margin-bottom: 1.8em;
+    position: relative;
+    border: none;
+}
+
+html .gist .gist-file .gist-syntax {
+    border-bottom: 0 !important;
+    background: none !important;
+}
+
+html .gist .gist-file .gist-syntax .gist-highlight {
+    background: #002b36 !important;
+}
+
+html .gist .gist-file .gist-meta {
+    padding: .6em 0.8em;
+    border: 1px solid #083e4b !important;
+    color: #586e75;
+    font-size: .7em !important;
+    background: #073642;
+    line-height: 1.5em;
+}
+
+html .gist .gist-file .gist-meta a {
+    color: #75878b !important;
+}
+
+html .gist .gist-file .gist-meta a:hover {
+    color: #93a1a1 !important;
+}
+
+html .gist .gist-file .gist-meta a[href*='#file'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -10px;
+    color: #474747 !important;
+}
+
+html .gist .gist-file .gist-meta a[href*=raw] {
+    top: .4em;
+}
+
+pre {
+    background: #002b36;
+    border: 1px solid #05232b;
+    line-height: 1.45em;
+    font-size: 13px;
+    margin-bottom: 2.1em;
+    padding: .8em 1em;
+    color: #93a1a1;
+    overflow: auto;
+}
+
+p code, li code {
+    display: inline-block;
+    white-space: no-wrap;
+    background: #fff;
+    font-size: .8em;
+    line-height: 1.5em;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 0 .3em;
+    margin: -1px 0;
+}
+
+p pre code, li pre code {
+    font-size: 1em !important;
+    background: none;
+    border: none;
+}
+
+.pre-code, html .gist .gist-file .gist-syntax .gist-highlight pre, .highlight code {
+    overflow: scroll;
+    overflow-y: hidden;
+    display: block;
+    padding: .8em !important;
+    overflow-x: auto;
+    line-height: 1.45em;
+    background: #fff !important;
+    color: #93a1a1 !important;
+    /* Comment */
+    /* Comment.Multiline */
+    /* Comment.Preproc */
+    /* Comment.Single */
+    /* Comment.Special */
+    /* Error */
+    /* Keyword */
+    /* Operator */
+    /* Operator */
+    /* Operator.Word */
+    /* Generic.Deleted */
+    /* Generic.Deleted.Specific */
+    /* Generic.Emph */
+    /* Generic.Heading */
+    /* Generic.Inserted */
+    /* Generic.Inserted.Specific */
+    /* Generic.Strong */
+    /* Generic.Subheading */
+    /* Keyword.Constant */
+    /* Keyword.Declaration */
+    /* Keyword.Pseudo */
+    /* Keyword.Reserved */
+    /* Keyword.Type */
+    /* Name.Attribute */
+    /* Name.Builtin */
+    /* Name.Class */
+    /* Name.Constant */
+    /* Name.Exception */
+    /* Name.Function */
+    /* Name.Namespace */
+    /* Name.Tag */
+    /* Name.Variable.Global */
+    /* Name.Variable.Instance */
+    /* Name.Variable */
+    /* Literal.Number.Float */
+    /* Literal.Number */
+    /* Literal.Number.Hex */
+    /* Literal.Number.Integer */
+    /* Literal.String */
+    /* Literal.String.Doc */
+    /* Literal.String.Double */
+    /* Literal.String.Escape */
+    /* Literal.String.Interpol */
+    /* Literal.String.Regex */
+    /* Literal.String.Single */
+}
+
+.pre-code span, html .gist .gist-file .gist-syntax .gist-highlight pre span, .highlight code span {
+    color: #93a1a1 !important;
+}
+
+.pre-code span, html .gist .gist-file .gist-syntax .gist-highlight pre span, .highlight code span {
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+.pre-code .c, html .gist .gist-file .gist-syntax .gist-highlight pre .c, .highlight code .c {
+    color: #586e75 !important;
+    font-style: italic !important;
+}
+
+.pre-code .cm, html .gist .gist-file .gist-syntax .gist-highlight pre .cm, .highlight code .cm {
+    color: #586e75 !important;
+    font-style: italic !important;
+}
+
+.pre-code .cp, html .gist .gist-file .gist-syntax .gist-highlight pre .cp, .highlight code .cp {
+    color: #586e75 !important;
+    font-style: italic !important;
+}
+
+.pre-code .c1, html .gist .gist-file .gist-syntax .gist-highlight pre .c1, .highlight code .c1 {
+    color: #586e75 !important;
+    font-style: italic !important;
+}
+
+.pre-code .cs, html .gist .gist-file .gist-syntax .gist-highlight pre .cs, .highlight code .cs {
+    color: #586e75 !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.pre-code .err, html .gist .gist-file .gist-syntax .gist-highlight pre .err, .highlight code .err {
+    color: #dc322f !important;
+    background: none !important;
+}
+
+.pre-code .k, html .gist .gist-file .gist-syntax .gist-highlight pre .k, .highlight code .k {
+    color: #cb4b16 !important;
+}
+
+.pre-code .o, html .gist .gist-file .gist-syntax .gist-highlight pre .o, .highlight code .o {
+    color: #93a1a1 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .p, html .gist .gist-file .gist-syntax .gist-highlight pre .p, .highlight code .p {
+    color: #93a1a1 !important;
+}
+
+.pre-code .ow, html .gist .gist-file .gist-syntax .gist-highlight pre .ow, .highlight code .ow {
+    color: #2aa198 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .gd, html .gist .gist-file .gist-syntax .gist-highlight pre .gd, .highlight code .gd {
+    color: #93a1a1 !important;
+    background-color: #372c34 !important;
+    display: inline-block;
+}
+
+.pre-code .gd .x, html .gist .gist-file .gist-syntax .gist-highlight pre .gd .x, .highlight code .gd .x {
+    color: #93a1a1 !important;
+    background-color: #4d2d33 !important;
+    display: inline-block;
+}
+
+.pre-code .ge, html .gist .gist-file .gist-syntax .gist-highlight pre .ge, .highlight code .ge {
+    color: #93a1a1 !important;
+    font-style: italic !important;
+}
+
+.pre-code .gh, html .gist .gist-file .gist-syntax .gist-highlight pre .gh, .highlight code .gh {
+    color: #586e75 !important;
+}
+
+.pre-code .gi, html .gist .gist-file .gist-syntax .gist-highlight pre .gi, .highlight code .gi {
+    color: #93a1a1 !important;
+    background-color: #1a412b !important;
+    display: inline-block;
+}
+
+.pre-code .gi .x, html .gist .gist-file .gist-syntax .gist-highlight pre .gi .x, .highlight code .gi .x {
+    color: #93a1a1 !important;
+    background-color: #355720 !important;
+    display: inline-block;
+}
+
+.pre-code .gs, html .gist .gist-file .gist-syntax .gist-highlight pre .gs, .highlight code .gs {
+    color: #93a1a1 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .gu, html .gist .gist-file .gist-syntax .gist-highlight pre .gu, .highlight code .gu {
+    color: #6c71c4 !important;
+}
+
+.pre-code .kc, html .gist .gist-file .gist-syntax .gist-highlight pre .kc, .highlight code .kc {
+    color: #859900 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .kd, html .gist .gist-file .gist-syntax .gist-highlight pre .kd, .highlight code .kd {
+    color: #268bd2 !important;
+}
+
+.pre-code .kp, html .gist .gist-file .gist-syntax .gist-highlight pre .kp, .highlight code .kp {
+    color: #cb4b16 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .kr, html .gist .gist-file .gist-syntax .gist-highlight pre .kr, .highlight code .kr {
+    color: #d33682 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .kt, html .gist .gist-file .gist-syntax .gist-highlight pre .kt, .highlight code .kt {
+    color: #2aa198 !important;
+}
+
+.pre-code .n, html .gist .gist-file .gist-syntax .gist-highlight pre .n, .highlight code .n {
+    color: #268bd2 !important;
+}
+
+.pre-code .na, html .gist .gist-file .gist-syntax .gist-highlight pre .na, .highlight code .na {
+    color: #268bd2 !important;
+}
+
+.pre-code .nb, html .gist .gist-file .gist-syntax .gist-highlight pre .nb, .highlight code .nb {
+    color: #859900 !important;
+}
+
+.pre-code .nc, html .gist .gist-file .gist-syntax .gist-highlight pre .nc, .highlight code .nc {
+    color: #d33682 !important;
+}
+
+.pre-code .no, html .gist .gist-file .gist-syntax .gist-highlight pre .no, .highlight code .no {
+    color: #b58900 !important;
+}
+
+.pre-code .nl, html .gist .gist-file .gist-syntax .gist-highlight pre .nl, .highlight code .nl {
+    color: #859900 !important;
+}
+
+.pre-code .ne, html .gist .gist-file .gist-syntax .gist-highlight pre .ne, .highlight code .ne {
+    color: #268bd2 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .nf, html .gist .gist-file .gist-syntax .gist-highlight pre .nf, .highlight code .nf {
+    color: #268bd2 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .nn, html .gist .gist-file .gist-syntax .gist-highlight pre .nn, .highlight code .nn {
+    color: #b58900 !important;
+}
+
+.pre-code .nt, html .gist .gist-file .gist-syntax .gist-highlight pre .nt, .highlight code .nt {
+    color: #268bd2 !important;
+    font-weight: bold !important;
+}
+
+.pre-code .nx, html .gist .gist-file .gist-syntax .gist-highlight pre .nx, .highlight code .nx {
+    color: #b58900 !important;
+}
+
+.pre-code .vg, html .gist .gist-file .gist-syntax .gist-highlight pre .vg, .highlight code .vg {
+    color: #268bd2 !important;
+}
+
+.pre-code .vi, html .gist .gist-file .gist-syntax .gist-highlight pre .vi, .highlight code .vi {
+    color: #268bd2 !important;
+}
+
+.pre-code .nv, html .gist .gist-file .gist-syntax .gist-highlight pre .nv, .highlight code .nv {
+    color: #268bd2 !important;
+}
+
+.pre-code .mf, html .gist .gist-file .gist-syntax .gist-highlight pre .mf, .highlight code .mf {
+    color: #2aa198 !important;
+}
+
+.pre-code .m, html .gist .gist-file .gist-syntax .gist-highlight pre .m, .highlight code .m {
+    color: #2aa198 !important;
+}
+
+.pre-code .mh, html .gist .gist-file .gist-syntax .gist-highlight pre .mh, .highlight code .mh {
+    color: #2aa198 !important;
+}
+
+.pre-code .mi, html .gist .gist-file .gist-syntax .gist-highlight pre .mi, .highlight code .mi {
+    color: #2aa198 !important;
+}
+
+.pre-code .s, html .gist .gist-file .gist-syntax .gist-highlight pre .s, .highlight code .s {
+    color: #2aa198 !important;
+}
+
+.pre-code .sd, html .gist .gist-file .gist-syntax .gist-highlight pre .sd, .highlight code .sd {
+    color: #2aa198 !important;
+}
+
+.pre-code .s2, html .gist .gist-file .gist-syntax .gist-highlight pre .s2, .highlight code .s2 {
+    color: #2aa198 !important;
+}
+
+.pre-code .se, html .gist .gist-file .gist-syntax .gist-highlight pre .se, .highlight code .se {
+    color: #dc322f !important;
+}
+
+.pre-code .si, html .gist .gist-file .gist-syntax .gist-highlight pre .si, .highlight code .si {
+    color: #268bd2 !important;
+}
+
+.pre-code .sr, html .gist .gist-file .gist-syntax .gist-highlight pre .sr, .highlight code .sr {
+    color: #2aa198 !important;
+}
+
+.pre-code .s1, html .gist .gist-file .gist-syntax .gist-highlight pre .s1, .highlight code .s1 {
+    color: #2aa198 !important;
+}
+
+.pre-code div .gd, html .gist .gist-file .gist-syntax .gist-highlight pre div .gd, .highlight code div .gd, .pre-code div .gd .x, html .gist .gist-file .gist-syntax .gist-highlight pre div .gd .x, .highlight code div .gd .x, .pre-code div .gi, html .gist .gist-file .gist-syntax .gist-highlight pre div .gi, .highlight code div .gi, .pre-code div .gi .x, html .gist .gist-file .gist-syntax .gist-highlight pre div .gi .x, .highlight code div .gi .x {
+    display: inline-block;
+    width: 100%;
+}
+
+.highlight, .gist-highlight {
+    margin-bottom: 1.8em;
+    background: #fff;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.highlight pre, .gist-highlight pre {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+pre::-webkit-scrollbar, .highlight::-webkit-scrollbar, .gist-highlight::-webkit-scrollbar {
+    height: .5em;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+pre::-webkit-scrollbar-thumb:horizontal, .highlight::-webkit-scrollbar-thumb:horizontal, .gist-highlight::-webkit-scrollbar-thumb:horizontal {
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.highlight code {
+    background: #000;
+}
+
+figure.code {
+    background: none;
+    padding: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.06);
+}
+
+figure.code pre {
+    margin-bottom: 0;
+}
+
+figure.code figcaption {
+    position: relative;
+}
+
+figure.code .highlight {
+    margin-bottom: 0;
+}
+
+.code-title, figure.code figcaption {
+    display:none;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2em;
+    text-shadow: #cbcccc 0 1px 0;
+    color: #474747;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
+    background: #aaaaaa image-url("code_bg.png") top repeat-x;
+    border: 1px solid #565656;
+    border-top-color: #cbcbcb;
+    border-left-color: #a5a5a5;
+    border-right-color: #a5a5a5;
+    border-bottom: 0;
+}
+
+.download-source, figure.code figcaption a {
+    position: absolute;
+    right: .8em;
+    color: #666 !important;
+    z-index: 1;
+    font-size: 13px;
+    text-shadow: #cbcccc 0 1px 0;
+    padding-left: 3em;
+}
