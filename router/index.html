@@ -3,10 +3,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>写在2014初 - Web 前端开发</title>
+	<title>Router -- 简单独立的路由系统 - Web 前端开发</title>
     <meta name="author" content="蓝面小生">
     
-	<meta name="description" content="博客停滞了很久，一直在为空间的事情苦恼，嫌备案麻烦，于是折腾了很久，终于决定使用github托管好了。 说说2014年的计划好了，2014年有很多要去做到极致的事情，尤其是在我2013年里专注的事情上面。 SimpleUI SimpleUI是我从2011年开始维护的项目， &hellip;">
+	<meta name="description" content="特性 支持IE6及以上浏览器
+提供PushState功能
+支持简单的路由匹配
+独立，纯粹，代码仅3KB API 方法 navigate 导航到某个路由
+事件 ready 路由启动的时候触发的事件 change 路由改变的时候触发的事件 使用示例 1
+2
+3
+4
+5
+6
+7
+8 var router &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -100,38 +111,60 @@
 
         </div>
         <div id="content" class="site-content">
-            <article class="single-post post">
-	<h2 class="post-title">写在2014初</h2>
-	<div class="entry-content"><p>博客停滞了很久，一直在为空间的事情苦恼，嫌备案麻烦，于是折腾了很久，终于决定使用github托管好了。</p>
-
-<p>说说2014年的计划好了，2014年有很多要去做到极致的事情，尤其是在我2013年里专注的事情上面。</p>
-
-<!-- more -->
-
+            <article class="page">
+    
+    <h1 class="page-title">Router -- 简单独立的路由系统</h1>
+    
+    <div class="entry-content"><h2>特性</h2>
 
 <ul>
-<li><p>SimpleUI</p>
-
-<p>  SimpleUI是我从2011年开始维护的项目，后来由于所在公司使用Arale的缘故，考虑到在设计思路上的相似性，就再也没有花精力在上面，2014年有了更多的好的想法会在上面慢慢优化。</p></li>
-<li><p>Sniper</p>
-
-<p>  这个是我自己在项目里使用的MVC Framework，也有很多优化的地方，也有很多需要分享给大家的地方，比如    嵌套视图，缓存策略，还有层叠事件模型等。</p></li>
-<li><p>Unicorn</p>
-
-<p>  这个是我和同事一直持续维护的基于NodeJS的前端静态资源管理方案也要做好对外开源的准备，这套方案目前已经比较成熟，目前已经应用在Alibaba国际事业部</p></li>
+<li>支持IE6及以上浏览器</li>
+<li>提供PushState功能</li>
+<li>支持简单的路由匹配</li>
+<li>独立，纯粹，代码仅3KB</li>
 </ul>
 
 
-<p>总之2014，我的本命年，我要大干一场。</p>
-</div>
+<h2>API</h2>
 
-<div class="meta">
-	
+<ul>
+<li><p>方法</p>
+
+<p>  <code>navigate</code> 导航到某个路由</p></li>
+<li><p>事件</p>
+
+<p>  <code>ready</code> 路由启动的时候触发的事件</p>
+
+<p>  <code>change</code> 路由改变的时候触发的事件</p></li>
+</ul>
+
+
+<h2>使用示例</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'>   <span class="kd">var</span> <span class="nx">router</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Router</span><span class="p">({</span>
+</span><span class='line'>      <span class="s1">&#39;/inbox&#39;</span><span class="o">:</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>          
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'>  
+</span><span class='line'>  <span class="nx">router</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span><span class='line'>  
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>下载：</p>
 </div>
 </article>
 
 	
-
 
 
 <section class="post-comments">
@@ -151,7 +184,6 @@
 <!-- Duoshuo Comment END -->
 </div>
 </section>
-
 
 
         </div>

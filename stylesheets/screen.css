@@ -141,7 +141,7 @@ html {
 
 body {
     font-size: 12px;
-    font-family: '微软雅黑', Helvetica, Arial, sans-serif;
+    font-family: "proxima-nova",'微软雅黑', Helvetica, Arial, sans-serif;
     text-rendering: optimizeLegibility;
     color: #333;
     background: #edece9 url(/images/bg.gif) left top no-repeat;
@@ -338,12 +338,24 @@ body.custom-font-enabled {
     line-height: 1.8;
 }
 
+
 .entry-content h1 {
     margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .entry-content h2 {
-    margin-bottom: 10px;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.entry-content h3{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.entry-content h4{
+    margin:5px 0;
 }
 
 .entry-content ol {
@@ -372,9 +384,24 @@ body.custom-font-enabled {
 .entry-content code {
     border: 1px solid #eee;
     background: #fafafa;
-    padding: 3px 5px;
+    padding: 1px 5px;
     border-radius: 3px;
     margin: 0 3px;
+    line-height: 1.5em;
+    font-family: Monaco,Consolas,Courier,monospace;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.entry-content h4 code{
+    padding:3px 5px;
+    margin:5px 0;
+}
+
+.entry-content blockquote{
+    border-left:5px solid #129FEA;
+    padding-left:10px;
+    margin: 10px 0;
+    color:#666;
 }
 
 .entry-content pre code {
@@ -460,7 +487,7 @@ body #ds-recent-comments li.ds-comment {
 
 /* non highlighted code colors */
 .highlight, html .gist .gist-file .gist-syntax .gist-highlight {
-    border: 1px solid #eee !important;
+    border-radius: 3px;
 }
 
 .highlight table td.code, html .gist .gist-file .gist-syntax .gist-highlight table td.code {
@@ -544,8 +571,6 @@ p code, li code {
     display: inline-block;
     white-space: no-wrap;
     background: #fff;
-    font-size: .8em;
-    line-height: 1.5em;
     color: #555;
     border: 1px solid #ddd;
     padding: 0 .3em;
@@ -565,7 +590,7 @@ p pre code, li pre code {
     padding: .8em !important;
     overflow-x: auto;
     line-height: 1.45em;
-    background: #fff !important;
+    background: #fafafa !important;
     color: #93a1a1 !important;
     /* Comment */
     /* Comment.Multiline */
@@ -781,7 +806,7 @@ p pre code, li pre code {
 }
 
 .pre-code .nx, html .gist .gist-file .gist-syntax .gist-highlight pre .nx, .highlight code .nx {
-    color: #b58900 !important;
+    color: #666 !important;
 }
 
 .pre-code .vg, html .gist .gist-file .gist-syntax .gist-highlight pre .vg, .highlight code .vg {
@@ -847,7 +872,7 @@ p pre code, li pre code {
 
 .highlight, .gist-highlight {
     margin-bottom: 1.8em;
-    background: #fff;
+    background: #fafafa;
     overflow-y: hidden;
     overflow-x: auto;
 }
@@ -880,7 +905,6 @@ figure.code {
     padding: 0;
     border: 0;
     margin-bottom: 1.5em;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.06);
 }
 
 figure.code pre {
@@ -921,4 +945,9 @@ figure.code .highlight {
     font-size: 13px;
     text-shadow: #cbcccc 0 1px 0;
     padding-left: 3em;
+}
+
+.page-title{
+    font-size:16px;
+    margin:15px 0px 30px;
 }

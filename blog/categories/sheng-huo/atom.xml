@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 生活 | Web 前端开发]]></title>
+  <link href="http://windyGex.github.io/blog/categories/sheng-huo/atom.xml" rel="self"/>
+  <link href="http://windyGex.github.io/"/>
+  <updated>2014-01-21T17:11:44+08:00</updated>
+  <id>http://windyGex.github.io/</id>
+  <author>
+    <name><![CDATA[蓝面小生]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[写在2014初]]></title>
+    <link href="http://windyGex.github.io/blog/xie-zai-2014chu/"/>
+    <updated>2014-01-13T20:13:31+08:00</updated>
+    <id>http://windyGex.github.io/blog/xie-zai-2014chu</id>
+    <content type="html"><![CDATA[<p>博客停滞了很久，一直在为空间的事情苦恼，嫌备案麻烦，于是折腾了很久，终于决定使用github托管好了。</p>
+
+<p>说说2014年的计划好了，2014年有很多要去做到极致的事情，尤其是在我2013年里专注的事情上面。</p>
+
+<!-- more -->
+
+
+<ul>
+<li><p>SimpleUI</p>
+
+<p>  SimpleUI是我从2011年开始维护的项目，后来由于所在公司使用Arale的缘故，考虑到在设计思路上的相似性，就再也没有花精力在上面，2014年有了更多的好的想法会在上面慢慢优化。</p></li>
+<li><p>Sniper</p>
+
+<p>  这个是我自己在项目里使用的MVC Framework，也有很多优化的地方，也有很多需要分享给大家的地方，比如    嵌套视图，缓存策略，还有层叠事件模型等。</p></li>
+<li><p>Unicorn</p>
+
+<p>  这个是我和同事一直持续维护的基于NodeJS的前端静态资源管理方案也要做好对外开源的准备，这套方案目前已经比较成熟，目前已经应用在Alibaba国际事业部</p></li>
+</ul>
+
+
+<p>总之2014，我的本命年，我要大干一场。</p>
+]]></content>
+  </entry>
+  
+</feed>

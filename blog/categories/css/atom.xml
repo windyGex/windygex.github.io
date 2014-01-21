@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CSS | Web 前端开发]]></title>
+  <link href="http://windyGex.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://windyGex.github.io/"/>
+  <updated>2014-01-21T17:11:44+08:00</updated>
+  <id>http://windyGex.github.io/</id>
+  <author>
+    <name><![CDATA[蓝面小生]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[使用Auto Sprites自动合并图片]]></title>
+    <link href="http://windyGex.github.io/blog/shi-yong-auto-spriteszi-dong-he-bing-tu-pian/"/>
+    <updated>2014-01-21T16:00:50+08:00</updated>
+    <id>http://windyGex.github.io/blog/shi-yong-auto-spriteszi-dong-he-bing-tu-pian</id>
+    <content type="html"><![CDATA[<p>Auto Sprites是我在国际站开发的用于自动合并CSS图片的工具，原本计划部署在服务器端进行自动合并和实时合并，但是因为服务器代码确保稳定性，迭代
+的周期过慢，所以先释出线下版本。</p>
+
+<h2>特性：</h2>
+
+<p>支持四种合并方式，智能判断合并方式</p>
+
+<h2>CSS 书写要求：</h2>
+
+<p>由于无法解析组合类，所以要求引用的图片和样式写在一个选择器里面，无法找到的图片将被忽略.</p>
+
+<!-- more -->
+
+
+<p>例如下面的写法将导致解析<strong>错误</strong></p>
+
+<p>``` css</p>
+
+<pre><code>.icon{
+    background:url(/images/icon.png);
+}
+.icon-add{
+    background-position:-10px -10px;
+}
+</code></pre>
+
+<p>```</p>
+
+<p>正确的书写方式</p>
+
+<p>``` css</p>
+
+<pre><code>.icon-add{
+    background:url(/images/icon-add.png) no-repeat;
+}
+
+.icon-del{
+    background:url(/images/icon-del.png) no-repeat;
+}
+</code></pre>
+
+<p>```</p>
+
+<h2>使用方式：</h2>
+
+<h3>使用npm安装Auto Sprites</h3>
+
+<p>``` javascript</p>
+
+<pre><code>npm install auto-sprites -g
+</code></pre>
+
+<p>```</p>
+
+<h3>编译CSS文件</h3>
+
+<blockquote><p>指定source和target的时候需要使用相对于root的绝对路径</p></blockquote>
+
+<p>``` javascript</p>
+
+<pre><code>sprites &lt;root&gt; &lt;source&gt; &lt;target&gt; &lt;sprites&gt; &lt;base64&gt; &lt;level&gt;
+</code></pre>
+
+<p>```</p>
+
+<h4><code>root</code></h4>
+
+<p>文件存放的根目录，比如 htdocs</p>
+
+<h4><code>source</code></h4>
+
+<p>指定编译的文件夹，比如<code>/css</code></p>
+
+<h4><code>target</code></h4>
+
+<p>指定编译后文件存放的位置 比如<code>/css-target</code></p>
+
+<h4><code>sprites</code></h4>
+
+<p>指定图片文件存放的位置, 比如<code>/simg</code></p>
+
+<h4><code>base64</code></h4>
+
+<p>是否启用base64编码</p>
+
+<h4><code>level</code></h4>
+
+<p>以文件或者文件夹的维度合并图片,默认值为<code>file</code></p>
+
+<h2>Bug 反馈</h2>
+
+<p><a target="_blank" href="https://github.com/windyGex/auto-sprites/issues">Github Issues</a></p>
+]]></content>
+  </entry>
+  
+</feed>
