@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Array | Web 前端开发]]></title>
   <link href="http://windyGex.github.io/blog/categories/array/atom.xml" rel="self"/>
   <link href="http://windyGex.github.io/"/>
-  <updated>2014-01-23T14:44:06+08:00</updated>
+  <updated>2014-01-23T14:47:44+08:00</updated>
   <id>http://windyGex.github.io/</id>
   <author>
     <name><![CDATA[蓝面小生]]></name>
@@ -27,6 +27,9 @@
 <p>var purchaseList = []</p>
 
 <p>```</p>
+
+<!-- more -->
+
 
 <p>但是判断起来却稍微有点麻烦，不过没关系，现在大家都已经知道了这个差别</p>
 

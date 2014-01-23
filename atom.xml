@@ -4,7 +4,7 @@
   <title><![CDATA[Web 前端开发]]></title>
   <link href="http://windyGex.github.io/atom.xml" rel="self"/>
   <link href="http://windyGex.github.io/"/>
-  <updated>2014-01-23T14:44:06+08:00</updated>
+  <updated>2014-01-23T14:47:44+08:00</updated>
   <id>http://windyGex.github.io/</id>
   <author>
     <name><![CDATA[蓝面小生]]></name>
@@ -25,6 +25,11 @@
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">purchaseList</span> <span class="o">=</span> <span class="p">[]</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more -->
 
 
 <p>但是判断起来却稍微有点麻烦，不过没关系，现在大家都已经知道了这个差别</p>
