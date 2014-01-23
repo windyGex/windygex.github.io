@@ -4,7 +4,7 @@
   <title><![CDATA[Category: NodeJS | Web 前端开发]]></title>
   <link href="http://windyGex.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://windyGex.github.io/"/>
-  <updated>2014-01-23T14:47:44+08:00</updated>
+  <updated>2014-01-23T15:07:02+08:00</updated>
   <id>http://windyGex.github.io/</id>
   <author>
     <name><![CDATA[蓝面小生]]></name>
@@ -20,6 +20,10 @@
     <id>http://windyGex.github.io/blog/shi-yong-auto-spriteszi-dong-he-bing-tu-pian</id>
     <content type="html"><![CDATA[<p>Auto Sprites是我在国际站开发的用于自动合并CSS图片的工具，原本计划部署在服务器端进行自动合并和实时合并，但是因为服务器代码确保稳定性，迭代
 的周期过慢，所以先释出线下版本。</p>
+
+<h2>使用工具输出的Sprites图片</h2>
+
+<p><img src="http://windyGex.github.io/images/sprites-smart.png" alt="smartSprites"/></p>
 
 <h2>特性：</h2>
 
