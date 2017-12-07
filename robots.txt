@@ -1,4 +1,2 @@
 User-agent: *
 Disallow: 
-
-Sitemap: http://windyGex.github.io/sitemap.xml 
